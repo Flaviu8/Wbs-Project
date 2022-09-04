@@ -1,0 +1,123 @@
+
+.team-container {
+    background-image: url(/assets/images/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+    
+}
+
+.meet-item-title {
+    text-align: center;
+    margin: auto;
+    color: white;
+    line-height: 2;
+    padding: 40px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.meet-container  {
+    display: flex;
+    margin: 0px;
+    border: 0,5px black dotted;
+    text-align: center;
+}
+.meet-container h2, .meet-container h3{
+    color: white;
+}
+.meet-container img {
+    width: 300px;
+    height: 300px;
+line-height: 2;
+align-self: stretch;
+flex-wrap: wrap;
+padding: 20px;
+margin: auto;
+}
+.text h4 {
+ display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text a {
+     display: block;
+     color: aqua;
+     margin: 0% auto;
+    border: 2px solid aqua;
+    background-color: transparent;
+    max-width: 150px;
+    text-align: center;
+    padding: 10px;
+
+    
+    
+}
+
+
+
+.container {
+max-width: 1600px;
+margin: 70px auto;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.container {
+ 
+    margin: 0px 0;
+}
+
+.team-container {
+    padding: 0px 0px;
+}
+
+.meet-container{
+    display: flex;
+    text-align: center;
+    
+
+    
+}
+.meet-container img {
+    width: 200px; 
+    height: 200px;
+}
+    
+    
+    
+    }
+    
+    
+
+  
+  @media only screen and (max-width: 765px) {
+    .team-container {
+        padding: 0px 0px;
+    }
+    .meet-container{
+        display: block;
+    }
+        
+    
+    
+  
+  @media only screen and (max-width: 400px) {
+  
+    .team-container {
+        padding: 0px 0px;
+    }
+    .meet-container{
+        display: block;
+    }
+    
+    
+   
+    }
+  }

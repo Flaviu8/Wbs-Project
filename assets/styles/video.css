@@ -1,0 +1,21 @@
+
+
+ .video {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bgk-middle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+     text-align: center;
+     align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2rem;
+    
+   
+}
+.video p {
+    padding: 20px;
+
+}
